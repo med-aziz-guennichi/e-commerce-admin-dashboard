@@ -1,0 +1,42 @@
+@font-face {
+  font-family: Poppins;
+  src: url(../public/assets/fonts/Poppins-Regular.ttf);
+}
+
+::selection {
+  background-color: #2a2a2a;
+  color: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Poppins;
+}
+
+.mainWrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header,
+.footer {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+}
+
+.mainContainer {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
+}

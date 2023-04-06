@@ -1,0 +1,548 @@
+.header {
+  height: 80px;
+  border-bottom: 3px dotted #eeeeee;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.headerTop {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerLogo .headerLogoLink {
+  color: #000000;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 1.3px;
+}
+
+.headerLogo .headerLogoLink h2 {
+  font-size: 30px;
+  text-shadow: 2px 2px #a1a1a1;
+}
+
+.headerLogo .headerLogoLink h4 {
+  text-shadow: 1px 1px #a1a1a1;
+}
+
+.logout {
+  margin: 0 15px;
+  color: #a1a1a1;
+  text-decoration: none;
+  transition: all 0.5s;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.logout:hover {
+  color: #1e1e1e;
+}
+
+.footer {
+  background-color: #2a2a2a;
+  color: #ffffff;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 14px;
+}
+
+
+.formSign {
+  min-height: 100vh;
+  margin-left: 16px;
+  margin-right: 16px;
+  padding: 80px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formSignDiv {
+  width: 500px;
+}
+
+.formSignTitle {
+  color: #2a2a2a;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.formSignGroups {
+  display: flex;
+  flex-direction: column;
+}
+
+.formSignGroups input {
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+  padding: 0px 15px;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+  color: #aaaaaa;
+  border-radius: 0px;
+  border: 1px solid #7a7a7a;
+  box-shadow: none;
+  margin-bottom: 20px;
+}
+
+.formSignGroups input:focus {
+  outline-color: #ffc107;
+}
+
+.formSignDiv button {
+  display: block;
+  margin: 25px auto;
+  background-color: #ffffff;
+  border-color: #2a2a2a;
+  color: #2a2a2a;
+  font-size: 13px;
+  padding: 12px 25px;
+  font-weight: 500;
+  transition: all .3s;
+  cursor: pointer;
+}
+
+.formSignDiv button:hover {
+  background-color: #2a2a2a;
+  color: #ffffff;
+}
+
+.account {
+  min-height: 100vh;
+  margin-left: 16px;
+  margin-right: 16px;
+  padding: 80px 40px;
+}
+
+.react-tabs {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  color: #2a2a2a;
+}
+
+.react-tabs__tab-list {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0;
+  padding: 0;
+  color: #2a2a2a;
+  border-bottom: none !important;
+}
+
+.react-tabs__tab {
+  height: 40px;
+  list-style: none;
+  padding: 12px 6px;
+  cursor: pointer;
+  color: #2a2a2a;
+}
+
+.react-tabs__tab--selected {
+  background: #2a2a2a !important;
+  border-color: transparent;
+  color: #ffffff !important;
+}
+
+.react-tabs__tab-panel {
+  display: none;
+  width: 300px;
+}
+
+.react-tabs__tab-panel--selected {
+  display: block;
+}
+
+.react-tabs__tab {
+  padding-left: 24px;
+}
+
+.react-tabs__tab--selected {
+  padding-left: 21px;
+}
+
+.panel-content {
+  text-align: center;
+}
+
+.react-tabs__tab-panel {
+  width: 100%;
+  border-left: 3px dotted #eeeeee;
+  padding: 0 40px;
+}
+
+.accountTitle {
+  color: #2a2a2a;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.accountSubTitle {
+  color: #a1a1a1;
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.accountContentTitle {
+  margin-bottom: 20px;
+  color: #a1a1a1;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.accountContentGroup {
+  margin-bottom: 15px;
+}
+
+.accountLight {
+  margin-right: 5px;
+}
+
+.accountBold {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.error {
+  color: #ff0000;
+  font-size: 14px;
+  margin: 15px 0;
+  display: block;
+  text-align: center;
+}
+
+.success {
+  color: #00ff00;
+  font-size: 14px;
+  margin: 15px 0;
+  display: block;
+  text-align: center;
+}
+
+.dashboardGroups {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.dashboardGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  width: 110px;
+  height: 110px;
+  border-radius: 70%;
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+.usersGroups,
+.productsGroups {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.userGroup,
+.productGroup {
+  width: 200px;
+  height: 250px;
+  box-shadow: 0 0 3px #2a2a2a;
+  padding: 15px;
+}
+
+.userHeader,
+.productHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.userHeader img,
+.productHeader img {
+  width: 80%;
+  height: 136px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.username,
+.productname {
+  text-align: center;
+  color: #2a2a2a;
+}
+
+.userFooter,
+.productFooter {
+  position: relative;
+}
+
+.userInfo,
+.productInfo {
+  margin-top: 30px;
+  color: #ff0000;
+  text-align: center;
+  cursor: pointer;
+}
+
+.userInfo:hover,
+.productInfo:hover {
+  text-decoration: underline;
+}
+
+.orderGroup {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px dotted #eeeeee;
+  margin-bottom: 20px;
+}
+
+.orderInfo {
+  color: #ff0000;
+  text-align: center;
+  cursor: pointer;
+}
+
+.orderInfo:hover {
+  text-decoration: underline;
+}
+
+.formSignGroups div>input::-webkit-file-upload-button {
+  color: #2a2a2a;
+  background-color: #ffffff;
+  padding: 5px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.formSignGroups div>input:hover::-webkit-file-upload-button {
+  background-color: #2a2a2a;
+  color: #ffffff;
+}
+
+.formSignGroups textarea {
+  width: 100%;
+  height: 140px;
+  min-height: 120px;
+  max-height: 200px;
+  margin-bottom: 25px;
+  line-height: 44px;
+  padding: 0px 15px;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+  color: #aaaaaa;
+  border-radius: 0px;
+  border: 1px solid #7a7a7a;
+  box-shadow: none;
+  resize: none;
+}
+
+.formSignDiv label span {
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+  color: #aaaaaa;
+}
+
+.productInfoContainer {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2a2a2a6e;
+  z-index: 999;
+}
+
+.productInfoWrapper {
+  width: 70%;
+  min-height: 400px;
+  box-shadow: 0 0 10px #ffffff;
+  background-color: #ffffff;
+  padding: 20px 10px;
+  border-radius: 10px;
+}
+
+.closeProductInfo {
+  display: block;
+  margin: 0 0 0 auto;
+  text-transform: uppercase;
+  color: #2a2a2a;
+  font-style: italic;
+  border-bottom: 1px solid #2a2a2a;
+  cursor: pointer;
+  width: max-content;
+}
+
+.productInfoGroups {
+  display: flex;
+  gap: 80px;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+.productInfoFlex {
+  flex: 1;
+}
+
+.productInfoGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.productInfoGroup input {
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+  padding: 0px 15px;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+  color: #aaaaaa;
+  border-radius: 0px;
+  border: 1px solid #7a7a7a;
+  box-shadow: none;
+}
+
+.productInfoGroup input::placeholder {
+  color: #aaaaaa;
+}
+
+.productInfoGroup textarea::placeholder {
+  color: #aaaaaa;
+}
+
+.update {
+  display: block;
+  background-color: #ffffff;
+  border-color: #2a2a2a;
+  color: #2a2a2a;
+  font-size: 13px;
+  padding: 12px 25px;
+  font-weight: 500;
+  transition: all .3s;
+  cursor: pointer;
+  font-family: Poppins;
+}
+
+.update:hover {
+  background-color: #2a2a2a;
+  color: #ffffff;
+}
+
+.productInfoGroup textarea {
+  width: 100%;
+  height: 140px;
+  min-height: 120px;
+  max-height: 200px;
+  margin-bottom: 25px;
+  line-height: 25px;
+  padding: 0px 15px;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+  color: #aaaaaa;
+  border-radius: 0px;
+  border: 1px solid #7a7a7a;
+  box-shadow: none;
+  resize: none;
+}
+
+.productInfoGroup.image {
+  display: flex;
+  flex-direction: column;
+}
+
+.productInfoGroup.image img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.productInfoGroup.image span {
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+  color: #aaaaaa;
+}
+
+.productInfoGroup input::-webkit-file-upload-button {
+  color: #2a2a2a;
+  background-color: #ffffff;
+  padding: 5px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.productInfoGroup input:hover::-webkit-file-upload-button {
+  background-color: #2a2a2a;
+  color: #ffffff;
+}
+
+.productInfoGroup.userImage {
+  display: flex;
+  flex-direction: column;
+}
+
+.productInfoGroup.userImage img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.productInfoGroup p span {
+  font-weight: bold;
+}
+
+.productInfoGroups.ordersInfoGroups {
+  gap: 30px;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.mt {
+  margin-top: 40px;
+}
